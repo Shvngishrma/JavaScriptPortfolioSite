@@ -1,8 +1,16 @@
 /**
+
+html {
+  scroll-behavior: smooth;
+}
 * CSS file to hold styles that apply across the application
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+
+.slide-in-left {
+  animation: slideInLeft 0.5s ease-out;
+}
 
 html,
 body {
@@ -12,6 +20,10 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 div#main {
@@ -123,3 +135,15 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
