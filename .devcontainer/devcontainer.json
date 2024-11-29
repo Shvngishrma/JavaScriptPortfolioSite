@@ -23,7 +23,7 @@
         "esbenp.prettier-vscode",
         "GitHub.copilot",
         "ms-vscode.azure-account",
-        "ms-azuretools.vscode-azurestaticwebapps"
+        "ms-azuretools.vscode-azurestaticwebapps",
         "oderwat.indent-rainbow"
       ],
       "settings": {
@@ -31,7 +31,7 @@
           "javascript": "javascriptreact"
         },
         "emmet.triggerExpansionOnTab": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       }
     }
   },
